@@ -9,11 +9,9 @@
 content
 @endsection
 
-
-
 @push('styles')
-    {{-- any links for css --}}
+    {{-- any links for styles --}}
 @endpush
 @push('scripts')
-    {{-- any links for js --}}
+    {{-- any links for styles --}}
 @endpush

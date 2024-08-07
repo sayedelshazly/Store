@@ -8,12 +8,3 @@
 @section('content')
 content
 @endsection
-
-
-
-@push('styles')
-    {{-- any links for css --}}
-@endpush
-@push('scripts')
-    {{-- any links for js --}}
-@endpush

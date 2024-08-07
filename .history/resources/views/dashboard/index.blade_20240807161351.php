@@ -6,14 +6,7 @@
 <li class="breadcrumb-item active">Starter Page</li>
 @endsection
 @section('content')
-content
+
+
+
 @endsection
-
-
-
-@push('styles')
-    {{-- any links for css --}}
-@endpush
-@push('scripts')
-    {{-- any links for js --}}
-@endpush
