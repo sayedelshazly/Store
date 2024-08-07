@@ -14,7 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [DashboardController::class, 'index']);
-
-// Route::any('/', [DashboardController::class, 'index']); // any [for calling any method (get, post, ...)]
-// Route::match(['get', 'post'], '/user/profile', function () {}); // we choose the method
+Route::get('/dashboard', [DashboardController::class]);
