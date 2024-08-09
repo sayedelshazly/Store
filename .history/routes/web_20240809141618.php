@@ -17,7 +17,7 @@ Route::get('/', function(){
     return view('welcome');
 });
 
-Route::get('/admin', [DashboardController::class, 'index']);
+Route::get('/admin/dashboard', [DashboardController::class, 'index']);
 
 // Route::any('/', [DashboardController::class, 'index']); // any [for calling any method (get, post, ...)]
 // Route::match(['get', 'post'], '/user/profile', function () {}); // we choose the method
